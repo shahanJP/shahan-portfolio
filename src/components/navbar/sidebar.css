@@ -1,0 +1,58 @@
+.sidenav {
+  height: 90vh; 
+  width: 40px;
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  overflow-x: hidden; 
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+.hicon  {
+  color: antiquewhite;
+  font-size: 2rem;
+  text-decoration: none;
+  transition: 1s;
+}
+
+.socio-links {
+  height:400px;
+  margin-bottom: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.socio-links a {
+  padding: 3rem;
+  font-size: 2rem;
+  color: antiquewhite;
+  text-decoration: none;
+  text-align: center;
+  transition: 1s;
+}
+
+.mail {
+  float: left;
+  position: absolute;
+  transform: rotate(270deg) translate(0px, 0px);
+  margin-top: 20rem;
+  text-align: center;
+}
+.touch {
+  font-size: 1.5rem;
+  color: rgb(221, 221, 221);
+  text-decoration: none; 
+  padding: 5px;
+  transition: 1s;
+}
+ .touch:hover{
+  color: rgb(170, 223, 245);
+ letter-spacing: 2px;
+}
+.hicon:hover,.socio-links a:hover{
+  color: rgb(170, 223, 245);
+  scale: 1.5;
+}
