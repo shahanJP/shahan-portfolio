@@ -9,6 +9,7 @@ import Project from "./components/project/Project";
 import Education from "./components/education/Education";
 
 function App() {
+  console.log()
   return (
    <>
       <Sidebar data={data} />
