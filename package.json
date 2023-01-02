@@ -2,7 +2,7 @@
  "homepage": "https://github.com/shahanJP/shahan-portfolio.git",
   "name": "my-app",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -47,26 +47,6 @@
   },
   "devDependencies": {
     "gh-pages": "^4.0.0"
-  },
-  
-  
-    "manifest_version": 2,
-    "background": {
-      "scripts": [
-        "browser-polyfill-npm.js",
-        "background.js"
-      ]
-    },
-    "content_scripts": [
-      {
-        "matches": [
-          "<all_urls>"
-        ],
-        "js": [
-          "browser-polyfill-master.js",
-          "content.js"
-        ]
-      }
-    ]
+  }
   
 }
