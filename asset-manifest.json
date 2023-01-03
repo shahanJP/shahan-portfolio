@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/shahanJP/shahan-portfolio.git/static/css/main.6194a397.css",
+    "main.css": "/shahanJP/shahan-portfolio.git/static/css/main.66fe870a.css",
     "main.js": "/shahanJP/shahan-portfolio.git/static/js/main.9fd828e3.js",
     "static/media/pro1.png": "/shahanJP/shahan-portfolio.git/static/media/pro1.525606c54eb48fa7464b.png",
     "static/media/pro2.png": "/shahanJP/shahan-portfolio.git/static/media/pro2.0980918e33413c071b20.png",
@@ -23,11 +23,11 @@
     "static/media/skills.jpg": "/shahanJP/shahan-portfolio.git/static/media/skills.778510cb5502032654c9.jpg",
     "static/media/js.jpg": "/shahanJP/shahan-portfolio.git/static/media/js.4e4eebc3d52eaeda0097.jpg",
     "index.html": "/shahanJP/shahan-portfolio.git/index.html",
-    "main.6194a397.css.map": "/shahanJP/shahan-portfolio.git/static/css/main.6194a397.css.map",
+    "main.66fe870a.css.map": "/shahanJP/shahan-portfolio.git/static/css/main.66fe870a.css.map",
     "main.9fd828e3.js.map": "/shahanJP/shahan-portfolio.git/static/js/main.9fd828e3.js.map"
   },
   "entrypoints": [
-    "static/css/main.6194a397.css",
+    "static/css/main.66fe870a.css",
     "static/js/main.9fd828e3.js"
   ]
 }
