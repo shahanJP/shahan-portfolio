@@ -195,7 +195,7 @@ export const data = {
       },
       {
         institution: "RMIT",
-        description: "Front End Developer",
+        description: "Front End Developer ",
       },
       {
         institution: "Generation Australia",
