@@ -14,7 +14,8 @@ import testing from "./assets/testing.jpg";
 import persist from "./assets/persistence.jpg";
 import blog from "./assets/blog.png";
 import dom from "./assets/Dom.jpg";
-
+import portjs from "./assets/portjs.png"
+import profilejs from "./assets/profile.js.png";
 import task from "./assets/task.png";
 import last from "./assets/gene.png";
 
@@ -125,13 +126,28 @@ export const data = {
     project: "I Built Something",
     list: [
       {
-        title: blog,
-        img: pro1,
-        story: "In Jairajpuri Blog  I learn how to make a webpage with marked up text and images.Learn how to use other editors to develop  web pages and how to use the browser developer tools to debug  webpages.",
-        tools:['HTML', 'CSS'],
-        demo:"https://shahanjp.github.io/shahanblog.github.io/",
-        repo:"https://github.com/shahanJP/shahanblog.github.io"
-
+        title: last,
+        img: pro2,
+        story:"Shopping Cart was  Generation  Australia Junior web development Program final individual Project using React.js.In start I struggle with JSX and react core concept but thanks to react documentaion every time i stuck i turned back to documentation and get the fundamental concept of react clear and applied on this project .ReactJS is extremely intuitive to work with and provides interactivity to the layout of any UI.  ",
+        tools:['HTML', 'CSS','Javascript','React', ],
+        demo:"https://shahanjp.github.io/shahan-cart-app/",
+        repo:"https://github.com/shahanJP/shahan-cart-app"
+     },
+     {
+      title: task,
+      img: pro3,
+      story:"Task Manager Project was a team Project at Generation Australia Junior web development Program using bootstrap and Javascript.There was lot of Challenges in this project but we accomplished all rubric requirement as team.We work as a unit with clear communication .This was great team work experience for me and thoroughly enjoyed  team work.",
+      tools:['HTML', 'CSS','Javascript', 'BootStrap',],
+      demo:"https://shahanjp.github.io/task-project/",
+      repo:"https://github.com/shahanJP/task-project"
+    },
+      {
+        title: portjs,
+        img:profilejs ,
+        story:"Portfolio with Javascript. This project is to test my Javascript skills and to get hands on Sass.Working on projects  helps me understand how the syntax works and how I can solve different problems with JavaScript.",
+        tools:['HTML','Javascript', 'BootStrap','Sass',],
+        demo:"https://shahanjp.github.io/LandingPage-Project/",
+        repo:"https://github.com/shahanJP/LandingPage-Project"
       },
       {
         title: dom,
@@ -142,18 +158,10 @@ export const data = {
         repo:"https://github.com/shahanJP/netfflixmock"
       },
       {
-        title: task,
-        img: pro3,
-        story:"Task Manager Project was a team Project at Generation Australia Junior web development Program using bootstrap and Javascript.There was lot of Challenges in this project but we accomplished all rubric requirement as team.We work as a unit with clear communication .This was great team work experience for me and thoroughly enjoyed  team work.",
-        tools:['HTML', 'CSS','Javascript', 'BootStrap',],
-        demo:"https://shahanjp.github.io/shahanblog.github.io/",
-        repo:"https://github.com/shahanJP/shahanblog.github.io"
-      },
-      {
-        title: last,
-        img: pro2,
-        story:"Shopping Cart was  Generation  Australia Junior web development Program final individual Project using React.js.In start I struggle with JSX and react core concept but thanks to react documentaion every time i stuck i turned back to documentation and get the fundamental concept of react clear and applied on this project .ReactJS is extremely intuitive to work with and provides interactivity to the layout of any UI.  ",
-        tools:['HTML', 'CSS','Javascript','React', ],
+        title: blog,
+        img: pro1,
+        story: "In Jairajpuri Blog  I learn how to make a webpage with marked up text and images.Learn how to use other editors to develop  web pages and how to use the browser developer tools to debug  webpages.",
+        tools:['HTML', 'CSS'],
         demo:"https://shahanjp.github.io/shahanblog.github.io/",
         repo:"https://github.com/shahanJP/shahanblog.github.io"
       },

@@ -11,7 +11,7 @@ const Home = ({data}) => {
         <div className="left">
           <h1 >{data.fullName}</h1>
           <Typical className="type"
-        steps={[data.role, 4000, 'JUNIOR FRONT-END DEVELOPER', 2000]}
+        steps={[data.role, 5000, 'JUNIOR FRONT-END DEVELOPER', 8000]}
         loop={Infinity}
         wrapper="h5"
       />
