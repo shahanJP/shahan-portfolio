@@ -2,11 +2,12 @@ import React from "react";
 import "./about.css";
 import photo from "../../assets/photo.jpg";
 import {motion} from 'framer-motion';
-import resume from '../resume.pdf'
+import jwd from '../jwd.pdf'
+
 
 const About = ({ data }) => {
   const { title, text } = data;
-  console.log(data);
+  console.log(data)
   
   return (
     <div className="about" id="about">
@@ -25,7 +26,7 @@ const About = ({ data }) => {
         <p>{text}</p>
        
         <motion.a
-        href={resume}
+        href={jwd}
         without rel="noopener noreferrer" target="_blank"
         whileHover={{scale:1.2}}
         whileTap = {{scale:0.9}}
